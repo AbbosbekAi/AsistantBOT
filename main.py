@@ -5,7 +5,7 @@ from aiogram.utils import executor
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")  
+TOKEN = os.getenv("7248324427:AAHEqXfWo9zimVCA-C4Q8KCTekvBuBM4HV0")  
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
